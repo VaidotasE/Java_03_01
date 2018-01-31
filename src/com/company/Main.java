@@ -1,5 +1,7 @@
 package com.company;
 
+import Uzdaviniai.LyginisNelyginis;
+
 import java.util.Scanner;
 
 public class Main {
@@ -11,14 +13,6 @@ public class Main {
          * ir po to parašytų ar šis skaičius yra lyginis ar ne lyginis.
          * Užuomina panaudokite % operatoriu.
          * */
-        Scanner sc = new Scanner(System.in);
-        System.out.println("Ivesk skaiciu: ");
-        int a = sc.nextInt();
-        if(a % 2 == 0){
-            System.out.println("lyginis");
-        }
-        else {
-            System.out.println("nelyginis");
-        }
+        LyginisNelyginis objektas = new LyginisNelyginis();
     }
 }
